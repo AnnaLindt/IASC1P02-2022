@@ -1,2 +1,27 @@
-body{background-color:yellow;}
-.redText{color:red;}
+body{background-color:black;}
+
+.redFont{
+  color:red;
+  font-size:20px;
+}
+.greenPara{
+  color:#7FFF00;
+  }
+
+.orangePara{
+  color:orange;
+}
+
+.purplePara{
+  color:purple;
+}
+
+.redUpper{
+  color:red;
+  vertical-align: top;
+}
+
+.yellowCapital{
+  color:yellow;
+  text-transform:uppercase;
+}
