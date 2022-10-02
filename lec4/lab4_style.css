@@ -1,0 +1,6 @@
+#example1 {
+  margin: 7px 10px 10px 10px;
+  border: black 3px solid;
+  padding: 5px 5px 5px 5px;
+}
+body{background-color: blue}
