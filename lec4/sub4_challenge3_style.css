@@ -1,0 +1,19 @@
+body{
+  background-color: white;
+}
+.box1{
+  color: darkgreen;
+  margin: 0% 2% 0% 2%;
+  border: black dashed 4px;
+  padding: 2% 0% 2% 1%;
+  text-align: start;
+}
+#red{
+  color: red;
+}
+.box{
+  background-color: green;
+  color: purple;
+  text-align: start;
+  margin: 2% 0% 0% 0%;
+}
