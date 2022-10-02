@@ -1,0 +1,37 @@
+body{
+  background-color: white;
+}
+.box1{
+  margin: 5px 10px 0px 5px;
+  border: purple dashed 4px;
+  padding: 200px 0% 15px 0%;
+  text-align: center;
+}
+.box2{
+  margin: 10px 0% 0px 0%;
+  padding: 0% 0% 0% 0%;
+  color: green;
+  font-size: 12px;
+  text-align: center;
+}
+.box3{
+  color: orange;
+  margin: 0px 0% 0% 0px;
+  padding: 30px 0px 0px 0px;
+  font-size: 25px;
+  text-align: start;
+}
+#up{
+  color: red;
+  vertical-align: super;
+}
+.box4{
+  color: purple;
+  font-size: 8px;
+  margin: 15px 0% 0px 0%;
+  text-align: end;
+}
+#orange{
+  color: orange;
+  text-transform: uppercase;
+}

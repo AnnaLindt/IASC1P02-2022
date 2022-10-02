@@ -3,20 +3,22 @@ body{
 }
 
 #box1{
-  margin: 7% 7% 14% 7%;
+  margin: 5% 5% 0% 5%;
   border: black solid 4px;
   padding: 0% 0% 0% 0%;
 }
 
  #box2{
-   margin: 20px 20px 20px 20px;
+   margin: 2% 2% 2% 2%;
    border: green dashed 2px;
-   padding: 4px 60% 4px 4px;
+   padding: 4px 50% 4px 4px;
    color: purple
  }
 
  #box3{
-   margin: 0% 60% 0% 0%;
+   margin: 0% 0% 0% 0%;
    border: white dashed 2px;
-   padding: 20px 20px 20px 20px;
+   padding: 2% 2% 2% 2%;
+   width: 15%;
+   height: auto;
  }

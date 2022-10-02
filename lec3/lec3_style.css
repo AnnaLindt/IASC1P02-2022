@@ -23,5 +23,5 @@ body{background-color:black;}
 
 .yellowCapital{
   color:yellow;
-  text-transform:uppercase;
+  vertical-align: uppercase;
 }
