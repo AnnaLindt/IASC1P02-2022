@@ -1,0 +1,102 @@
+body{
+  background-color: black;
+  color:black;
+}
+
+#wrapper{
+  background-color: white;
+  min-height: 1200px;
+  width:1200px;
+	margin:0 auto;
+  color:black;
+}
+
+#header{
+  background-color: pink;
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  top:0px;
+  margin: 0 auto;
+}
+
+h2{
+  color:blue;
+  font-weight: bold;
+}
+
+img{
+  margin: 0 100px;
+}
+
+#navigation{
+  float:left;
+  background-color: lightgreen;
+  clear:both;
+  width: 170px;
+  height: 710px;
+  text-align: left;
+  padding:10px;
+  position:fixed;
+  top:0px;
+  border-style: dashed;
+  border-color: red;
+  border-width: 5px;
+  z-index:10;
+}
+
+#content1{
+  float:right;
+  width: 980px;
+  height: auto;
+  text-align: left;
+  padding:10px;
+  position: relative;
+  top:100px;
+  z-index: 2;
+}
+
+#content2{
+  background-color: lightblue;
+  float:right;
+  width: 980px;
+  padding: 10px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: dotted;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: purple;
+  position: relative;
+  top:100px;
+  z-index: 1;
+}
+
+.font{
+    font-family: "Arial Narrow", Arial, sans-sans-serif;
+}
+
+.red{
+  color: red;
+}
+
+.size{
+  font-size: 15px;
+}
+
+.case{
+  text-transform: uppercase;
+}
+
+ol,h2{
+  font-style: italic;
+}
+
+h3, ul{
+  color:orange
+}
+
+.font li{
+  color:darkgrey;
+}

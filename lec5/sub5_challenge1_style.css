@@ -3,9 +3,11 @@ body{
 	background-color:white;
 }
 #wrapper{
-	width:1520px;
+	width:1530px;
 	margin:0 auto;
 	background-color:white;
+	position: relative;
+	right: 10px;
 }
 
 #header{
