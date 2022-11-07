@@ -101,6 +101,7 @@ body{
   padding: 0px 0px 0px 50px;
   font-size: 20px;
   position: relative;
+  font-style:italic;
 }
 #contactmid{
   float: left;
@@ -110,6 +111,7 @@ body{
   padding: 0px 50px 0px 50px;
   font-size: 20px;
   position: relative;
+  font-style: italic;
 }
 #contactright{
   float: right;
@@ -119,6 +121,7 @@ body{
   padding: 0px 50px 0px 0px;
   font-size: 20px;
   position: relative;
+  font-style:italic;
 }
 
 .heading{
