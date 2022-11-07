@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+  color: black;
+  font-family: arial;
+  width: 1200px;
+  height: 1000px;
+  margin: 20px auto;
+}
+
+h2{
+  font-size: 25px;
+  color:white;
+}
+
+h1{
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h3{
+  font-size: 15px;
+  color: darkred;
+  text-transform: uppercase;
+}
+
+#header{
+  background-color: #666666;
+  position:fixed;
+  height:90px;
+  width: 1200px;
+  alignment: center;
+}
+
+#headerres{
+  color: Steelblue;
+  position: fixed;
+  right: 12%;
+  top: 40px;
+}
