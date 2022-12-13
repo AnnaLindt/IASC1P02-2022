@@ -3,7 +3,7 @@ body{
 }
 #wrapper{
         width: 900px;
-        height: 1200px;
+        height: auto;
         margin:0 auto;
         font-family: Arial, sans-serif;
         font-size: 17px;
