@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>köb Public Library</title>
+<link href="finalpage1_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="finalpage1_scripts.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+  <div id="header">
+      <img id="imgbooks" src="books.png" alt="picture of books"/>
+      <!--Source: https://img.51miz.com/Element/00/20/43/35/dba6dfad_E204335_7b8328c8.png -->
+      <img id="imglogo" src="koeb_logo.jpg" alt="library logo"/>
+
+      <div id="navleft"> <p>HOME</p></div>
+      <div id="navcent"> <p>VOLUNTEERING</p></div>
+      <div id="navright"> <p>MEDIA</p></div>
+    </div>
+  <div id="description">
+      <div id="topdes"> <p>We are the public library in Königheim. </p>
+      <p>We are 13 volunteers and 2000 pieces of media.</p></div>
+      <p>Our media stock offers books and magazines for young and old, from picture
+        books to children's books and comics as well as children's CDs to novels,
+        biographies, crime novels, non-fiction, audio books and local history novels.
+        In order to always be up to date, we add new media several times a year and are
+         always happy to receive book suggestions from our readers. Of course, books can
+         also be ordered from us at any time.</p>
+       <p> We are very involved in our community and participate in events with smaller
+         exhibitions and activities related to reading.</p>
+      </div>
+      <div id="insta">
+        <img id= "instaimg" src="insta_final.jpg" alt="instagram account"/>
+        <p id="instatxt"> <a href="https://www.instagram.com/koeb_koenigheim/"> Follow us on Instagram!</a></p></div>
+
+      <div id="nameday">
+        <div><h1 id="namedayheading">NAME DAY:</h1></div>
+        <div id="namedaytxt"><p>Here you can enter the current date to find out who has name day
+          today.</p>
+        <div id="dateinput"><div><label for="date">What date is today?</label></div>
+        <div> December <input type="number" onkeypress="isNumberKey(event)" name="date" id="date" value="Current date"/></div>
+      	<button type="button" onclick="namedayFunction()">Show names</button></div></div>
+        <!-- currently it only works from the 10th of December to the 15th of December and
+      it only shows a limited number of names-->
+        <div id="namesdayOutput"></div>
+        <!--Source: https://www.vorname.com/namenstag_12.html -->
+    </div>
+
+
+      <div id="openinghours">
+          <h1>OPENING HOURS:</h1>
+        <table width="400" border="1">
+          <tr>
+            <td width="200" height="90">Monday</td>
+            <td width="200" height="90">4:30pm - 6pm</td>
+          </tr>
+          <tr>
+            <td width="200" height="90">Wednesday</td>
+            <td width="200" height="90">5pm - 6pm</td>
+          </tr>
+          <tr>
+            <td width="200" height="90">Thursday</td>
+            <td width="200" height="90">10am - 11am</td>
+          </tr>
+        </table>
+        <div id="openingNews"><button type="button" onclick="showNews()">Current news about our opening hours</button></div>
+        </div>
+
+          <div id="eventsheading"><h1>EVENTS:</h1></div>
+          <div class="events">
+            <h2>Reading Time</h2>
+              <p>Once a month we offer the event "Reading Time" where we try to
+                teach children between the ages of 4 and 10 the fun of reading.
+              <a href="finalpage2.html">Learn more</a></p></div>
+              <img src="childrenbooks.jpeg" alt="picture of children books" class="eventimg"/>
+              <!--Source: https://th.bing.com/th/id/R.c338b40edd951e11bdfefddcd4ac88d4?rik=4857qOM%2bmiX%2bsg&riu=http%3a%2f%2fwww.trbimg.com%2fimg-57608f86%2fturbine%2fct-million-book-giveaway-met-20160615&ehk=pqtd99WtXHqRGNIMA3r4xOBKRQ%2fXW1DNx8yvhUNS9SQ%3d&risl=&pid=ImgRaw&r=0 -->
+          <div class="events">
+            <h2>Christmas Market</h2>
+              <p>Every December we organize a small and cozy christmas market.
+                Come by and look forward to lots of Christmas books, mulled wine,
+                and homemade cookies. </p></div>
+              <img src="christmas.jpeg" alt="christmas picture" class="eventimg"/>
+              <!-- Source: https://newevolutiondesigns.com/images/freebies/4k-christmas-ipad-wallpaper-10.jpg -->
+          <div class="events">
+            <h2>Book Fair</h2>
+              <p>Together with other libraries in the region, we visit the Frankfurt
+                Book Fair every year in October.
+              </p></div>
+
+              <a href="https://www.buchmesse.de/en"><img src="bookfair.jpeg" alt="book fair in frankfurt" class="eventimg"/></a>
+              <!-- Source: https://veranstaltungen.toubiz.de/media/event/image/big/1/0/4/7/1047789_01.jpg -->
+
+            <div class="footer"><a href="https://www.koenigheim.de/de/startseite"> Königheim</a></div>
+            <div class="footer">Contact</div>
+            <div class="footer">Impressum</div>
+
+
+  </div>
+</body>
+</html>

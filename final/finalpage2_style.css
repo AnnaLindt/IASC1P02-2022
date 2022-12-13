@@ -1,0 +1,80 @@
+body{
+  background-color: darkred;
+}
+#wrapper{
+        width: 900px;
+        height: 1200px;
+        margin:0 auto;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color:black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+#header{
+  background-color: white;
+  position: fixed;
+  width: 900px;
+  height: 150px;
+  z-index: 100;
+  border-width: 0px 0px 3px 0px;
+  border-color: black;
+  border-style: solid;
+  float: left;
+  background-color:white;
+}
+
+#imgbooks{
+  height: 80px;
+  width: 280px;
+  float: left;
+  margin: 10px 0px 10px 20px;
+}
+#imglogo{
+  height: 60px;
+  width: 300px;
+  float: right;
+  margin: 20px 20px 20px 280px;
+}
+#navleft{
+  height: 70px;
+  width: 300px;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+}
+#navcent{
+  height: 70px;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+#navright{
+  height: 70px;
+  width: 300px;
+  float: right;
+  text-align: center;
+}
+
+h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+
+.fullPageText{
+  width: 860px;
+  height: 200px;
+  background-color: white;
+}
+#readingTime{
+  margin: 158px 0px 0px 0px;
+  padding: 20px 20px 20px 20px;
+}
