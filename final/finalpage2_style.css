@@ -1,5 +1,7 @@
 body{
   background-color: darkred;
+  padding: 60px 0px 0px 0px;
+  margin: 0px;
 }
 #wrapper{
         width: 900px;
@@ -8,24 +10,30 @@ body{
         font-family: Arial, sans-serif;
         font-size: 17px;
         color:black;
+        top:0;
 }
 
 a{
   color: black;
   text-decoration: none;
 }
+a:hover{
+  color: #74b72e; /*Source: https://im-coder.com/css-hover-text-die-farbe-zu-aendern-mit-taste.html#:~:text=CSS%20Hover-Text%20die%20Farbe%20zu%20%C3%84ndern%20Mit%20Taste,von%20wei%C3%9F%20zu%20schwarz%20bei%20der%20gleichen%20Zeit. */
+  cursor: pointer; /*Source: https://www.educba.com/javascript-image-slider/ */
+}
 
 #header{
   background-color: white;
-  position: fixed;
   width: 900px;
   height: 150px;
+  position:fixed;
   z-index: 100;
   border-width: 0px 0px 3px 0px;
   border-color: black;
   border-style: solid;
   float: left;
   background-color:white;
+  top:0;
 }
 
 #imgbooks{
@@ -39,11 +47,11 @@ a{
   width: 300px;
   float: right;
   margin: 20px 20px 20px 280px;
+  cursor: none;
 }
 #navleft{
   height: 70px;
   width: 300px;
-  font-weight: bold;
   float: left;
   text-align: center;
 }
@@ -75,6 +83,78 @@ h1{
   background-color: white;
 }
 #readingTime{
-  margin: 158px 0px 0px 0px;
+  margin: 98px 0px 0px 0px;
   padding: 20px 20px 20px 20px;
+  position: relative;
+  float: left;
+  top:0;
+  height: auto;
 }
+
+.booksImg{
+  width: 279px;
+  height: 180px;
+  margin: 7px 7px 0px 0px;
+  border-style: solid;
+  border-color: white;
+  border-width: 8px;
+  position: relative;
+  float: left;
+  cursor: zoom-in;
+}
+#rightImg{
+  margin: 7px 0px 0px 0px;
+}
+
+#participation{
+  margin: 7px 7px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+  float: left;
+  height: 194px;
+  background-color: white;
+  width: 420px;
+}
+
+#nextDates{
+  margin: 7px 0px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+  float: left;
+  height: auto;
+  background-color: white;
+  width: 392px;
+}
+
+#registration{
+    margin: 7px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    float: left;
+    top:0;
+    height: auto;
+    background-image: linear-gradient(to right, #98FB98, #74b72e); /*Source:https://www.blogseite.com/css-farbverlauf-erstellen/ */
+  }
+
+#currentDate{
+  float: right;
+  color: black;
+}
+
+button{
+  cursor:grab;
+}
+
+  .footer{
+    height: 25px;
+    width: 300px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin: 7px 0px 5px 0px;
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 0px 10px 0px;
+    background-color:white;
+  }

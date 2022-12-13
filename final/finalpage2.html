@@ -8,29 +8,75 @@
 <script type="text/javascript" src="finalpage2_scripts.js"></script>
 </head>
 
-<body>
-  <div id="wrapper">
+<body onload="currentDateFunction()">
+<div id="wrapper">
   <div id="header">
       <img id="imgbooks" src="books.png" alt="picture of books"/>
       <!--Source: https://img.51miz.com/Element/00/20/43/35/dba6dfad_E204335_7b8328c8.png -->
       <img id="imglogo" src="koeb_logo.jpg" alt="library logo"/>
 
-      <div id="navleft"> <p>HOME</p></div>
+      <div id="navleft"> <p><a href="finalpage1.html">HOME</a></p></div>
       <div id="navcent"> <p>VOLUNTEERING</p></div>
-      <div id="navright"> <p>MEDIA</p></div>
-    </div>
+      <div id="navright"> <p><a href="finalpage3.html">MEDIA</a></p></div>
+  </div>
 
     <div class="fullPageText" id="readingTime">
-      <h1> READING TIME:</h1></br>
+      <h1> READING TIME:</h1><br/>
       <p> Once a month we offer the event "Reading Time" where we try to
         teach children between the ages of 4 and 10 the fun of reading.</p>
       <p> One of our volunteers will read a interesting and new childrensbook to
         the children. After and during the reading process they will discuss the
           content of the book together. At the end of each session we normally incorporate
           some kind of creative task related to the book like crafting or painting.</p>
-        </div>
+    </div>
+    <div>
+        <img class="booksImg" src="childrenbooks.jpeg" alt="picture of children books"/>
+        <img class="booksImg"  src="https://metalpotato.com/wp-content/uploads/2014/07/Childrens-Books.jpg" alt="children books"/>
+        <img class="booksImg" id="rightImg" src="crafting.jpg" alt="children books"/>
+    </div>
 
+
+    <div id="participation">
+      <h1>WHO CAN PARTICIPATE?</h1><br/>
+      <ul>
+        <li>Children between 4 and 10 years</li>
+        <li>who are interested in reading</li>
+        <li>or just want to experience something new and dive into new worlds</li>
+        <li>and who are open to make some new friends.</li>
+      </ul>
+    </div>
+
+    <div id="nextDates">
+      <h1>NEXT DATES:</h1><br/>
+        <ol>
+          <li>Christmas themed meeting on December 18th 2022</li>
+          <li>Special New Year event on January 10th 2023</li>
+          <li>Carneval themed event on February 15th 2023</li>
+          <li>Easter meeting on March 20th 2023</li>
+          <li>More to come...</li>
+        </ol>
+    </div>
+
+    <div class="fullPageText" id="registration">
+      <h1>REGISTRATION:</h1><br/>
+      <p>for our Christmas meeting on December 18th.</p>
+
+      <p><label for="name">First name of the participant:</label>
+      <input type="text" name="name" id="name" /></p>
+      <p><label for="name">Family name of the participant:</label>
+      <input type="text" name="lastname" id="lastname" /></p>
+      <p><label for="age">Age of the participant:</label>
+      <input name="age" type="text" onkeypress="isNumberKey(event)" id="age" /></p>
+      <button type="button" onclick="registrationFunction()">Next</button>
+
+      <div id="currentDate"></div>
+    </div>
+
+      <div class="footer" id="footer"><a href="https://www.koenigheim.de/de/startseite"> Königheim</a></div>
+      <div class="footer">Contact</div>
+      <div class="footer">Impressum</div>
 
 
   </div>
 </body>
+</html>

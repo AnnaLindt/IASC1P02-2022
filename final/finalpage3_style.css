@@ -1,0 +1,227 @@
+body{
+  background-color: darkred;
+  padding: 60px 0px 0px 0px;
+  margin: 0px;
+}
+#wrapper{
+        width: 900px;
+        height: 1200px;
+        margin:0 auto;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color:black;
+        top:0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: #74b72e; /*Source: https://im-coder.com/css-hover-text-die-farbe-zu-aendern-mit-taste.html#:~:text=CSS%20Hover-Text%20die%20Farbe%20zu%20%C3%84ndern%20Mit%20Taste,von%20wei%C3%9F%20zu%20schwarz%20bei%20der%20gleichen%20Zeit. */
+  cursor: pointer; /*Source: https://www.educba.com/javascript-image-slider/ */
+}
+
+
+#header{
+  background-color: white;
+  width: 900px;
+  height: 150px;
+  position:fixed;
+  z-index: 100;
+  border-width: 0px 0px 3px 0px;
+  border-color: black;
+  border-style: solid;
+  float: left;
+  background-color:white;
+  top:0;
+}
+
+#imgbooks{
+  height: 80px;
+  width: 280px;
+  float: left;
+  margin: 10px 0px 10px 20px;
+}
+#imglogo{
+  height: 60px;
+  width: 300px;
+  float: right;
+  margin: 20px 20px 20px 280px;
+  cursor: none;
+}
+
+#navleft{
+  height: 70px;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+#navcent{
+  height: 70px;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+#navright{
+  height: 70px;
+  width: 300px;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+
+h1:hover{
+  color: black;
+  cursor: auto;
+}
+
+.fullPageText{
+  width: 860px;
+  height: 200px;
+  background-color: white;
+  padding: 20px 20px 20px;
+  position: relative;
+  float: left;
+  margin: 7px 0 0 0;
+}
+#ourMedia{
+  margin: 98px 0px 0px 0px;
+  top:0;
+  height: auto;
+}
+
+#mediaImgHeading{
+  height: auto;
+}
+
+#mediaImg{
+  color: black;
+  background-color: white;
+  position: relative;
+  float: left;
+  max-height: 300px;
+  width: 900px;
+  margin: 0 0 0 0;
+}
+.images{
+  max-height: 250px;
+  max-width: 200px;
+  padding: 20px 20px 20px 20px;
+  float: left;
+}
+.showSlider {
+  display: none
+}
+.showSlider img {
+  max-width: 450px;
+}
+.left{
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 20px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.right {
+  right: 0;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  width: auto;
+  padding: 20px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px 0 0 3px;
+}
+.left:hover, .right:hover {
+  background-color: rgba(115, 115, 115, 0.8);
+}
+.contentBook {
+  font-size: 20px;
+  position: relative;
+  float: left;
+  width: auto;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+/*Code Source: https://www.educba.com/javascript-image-slider/ */
+
+#sugInput{
+  float: left;
+  position: relative;
+  margin: 7px 7px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  height: 300px;
+  width: 410px;
+  background-color: white;
+
+}
+
+#sugOutput{
+  float: left;
+  position: relative;
+  margin: 7px 0px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  height: 300px;
+  width: 402px;
+  background-image: linear-gradient(to right, #98FB98, #74b72e); /*Source:https://www.blogseite.com/css-farbverlauf-erstellen/ */
+}
+
+button{
+  cursor:grab;
+}
+
+.footer{
+  height: 25px;
+  width: 300px;
+  text-align: center;
+  float: left;
+  position: relative;
+  margin: 7px 0px 5px 0px;
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px 0px 10px 0px;
+  background-color:white;
+}

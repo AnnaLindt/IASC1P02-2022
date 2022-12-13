@@ -21,3 +21,11 @@ function namedayFunction(){
 function showNews(){
   alert("We will be closed over the Christmas holidays from December 22th to January 6th.");
   }
+
+function isNumberKey(evt){
+      var charCode = (evt.which) ? evt.which : evt.keyCode
+      if (charCode > 31 && (charCode < 48 || charCode > 57))
+          return false;
+      return true;
+  }
+/*Source of code: https://www.delftstack.com/de/howto/javascript/javascript-only-numbers/#verwendung-von-das-feldattribut-input-und-set-condition-f%25C3%25BCr-keycode-in-javascript */

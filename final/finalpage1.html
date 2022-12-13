@@ -15,9 +15,9 @@
       <!--Source: https://img.51miz.com/Element/00/20/43/35/dba6dfad_E204335_7b8328c8.png -->
       <img id="imglogo" src="koeb_logo.jpg" alt="library logo"/>
 
-      <div id="navleft"> <p>HOME</p></div>
+      <div id="navleft"> <p><a href="finalpage1.html">HOME</a></p></div>
       <div id="navcent"> <p>VOLUNTEERING</p></div>
-      <div id="navright"> <p>MEDIA</p></div>
+      <div id="navright"> <p><a href="finalpage3.html">MEDIA</a></p></div>
     </div>
   <div id="description">
       <div id="topdes"> <p>We are the public library in Königheim. </p>
@@ -40,7 +40,7 @@
         <div id="namedaytxt"><p>Here you can enter the current date to find out who has name day
           today.</p>
         <div id="dateinput"><div><label for="date">What date is today?</label></div>
-        <div> December <input type="number" onkeypress="isNumberKey(event)" name="date" id="date" value="Current date"/></div>
+        <div> December <input onkeypress="isNumberKey(event)" type="text" name="date" id="date"/></div><br/>
       	<button type="button" onclick="namedayFunction()">Show names</button></div></div>
         <!-- currently it only works from the 10th of December to the 15th of December and
       it only shows a limited number of names-->

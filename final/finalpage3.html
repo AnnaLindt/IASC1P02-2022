@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>köb Public Library</title>
+<link href="finalpage3_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="finalpage3_script.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+      <img id="imgbooks" src="books.png" alt="picture of books"/>
+      <!--Source: https://img.51miz.com/Element/00/20/43/35/dba6dfad_E204335_7b8328c8.png -->
+      <img id="imglogo" src="koeb_logo.jpg" alt="library logo"/>
+
+      <div id="navleft"> <p><a href="finalpage1.html">HOME</a></p></div>
+      <div id="navcent"> <p>VOLUNTEERING</p></div>
+      <div id="navright"> <p><a href="finalpage3.html">MEDIA</a></p></div>
+  </div>
+
+  <div class="fullPageText" id="ourMedia">
+    <h1> OUR MEDIA:</h1><br/>
+    <p> Our media offer ranges from books and magazines for young and old to CDs and DVDs.</p>
+    <p> For children we offer picture books, children's books and comics as well as children's CDs.
+      We also have novels, bigraphies, thrillers, non-fiction, audio books and local history novels.</p>
+    <p> In order to be always up to date, we add new media several times a year.
+        We are also happy to receive book suggestions from our readers, which can be submitted
+        digitally below on our <a href="#sugAnchor">website</a>.  </p>
+  </div>
+
+  <div class="fullPageText" id="mediaImgHeading">
+    <h1>SOME EXAMPLES:</h1></div>
+
+  <div id="mediaImg">
+    <a class="left" onclick="nextSlide(-1)">❮</a>
+    <div class="showSlider fade">
+      <img src="https://throwawayliterature.files.wordpress.com/2016/01/fantasy-books-to-read-in-2016.jpg"
+      alt= "Fantasy books" class="images"/>
+      <div class="contentBook">Fantasy books</div>
+    </div>
+    <div class="showSlider fade">
+      <img src="https://img.readthistwice.com/unsafe/lists/best-psychological-thriller-books-6a612f6fba.png"
+      alt = "Thriller" class="images"/>
+      <div class="contentBook">Psychological thriller</div>
+    </div>
+    <div class="showSlider fade">
+      <img src="https://www.telegraph.co.uk/content/dam/books/2018/06/20/biogs-comp_trans_NvBQzQNjv4BqM37qcIWR9CtrqmiMdQVx7NaZIr6BIRvvm1FZVuZurho.jpg?imwidth=1400"
+      alt="Biographies" class="images"/>
+      <div class="contentBook">Biographies</div>
+    </div>
+    <div class="showSlider fade">
+      <img src="https://cdn.shopify.com/s/files/1/0024/6874/1219/products/0-5-david-walliams-children-picture-book-collection-5-books-illustrated-by-tony-ross-deluxe-ages-0-5-hardback-1_1200x1070.jpg?v=1582035409"
+      alt= "Children picture books" class="images"/>
+      <div class="contentBook">Children picture books</div>
+    </div>
+    <a class="right" onclick="nextSlide(1)">❯</a>
+    </div>
+    <!--Code Source: https://www.educba.com/javascript-image-slider/ -->
+
+    <div id="sugInput">
+        <h1>ENTER SUGGESTIONS:</h1><br/>
+        <p>For making suggestions, please fill out the boxes bellow.
+        Make sure to tell us the name and the author of a book.</p>
+        <p><label for= "userName">Please enter your name here:</label><br/>
+        <input type="text" name="userName" id="userName"/><br/></p>
+        <p><label for= "suggestion">Please enter your suggestion here:</label><br/>
+        <textarea rows="3" cols="30" name="suggestion" id="suggestion"></textarea><br/></p>
+        <p><button type="submit" onclick="subMedia()">Submit</button></p>
+    </div>
+
+    <div id="sugOutput">
+      <h1 id="subName"><a name="sugAnchor">YOUR SUGGESTIONS:</a></h1><br/>
+      <div><p id="subSuggestion">Currently, you have not made any suggestions.</p></div>
+    </div>
+
+    <div class="footer" id="footer"><a href="https://www.koenigheim.de/de/startseite"> Königheim</a></div>
+    <div class="footer">Contact</div>
+    <div class="footer">Impressum</div>
+
+</div>
+</body>
+</html>
