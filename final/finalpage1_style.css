@@ -85,10 +85,10 @@ a:hover{
 
 #insta{
   height: 279px;
-  width: 357px;
+  width: 362px;
   float: left;
   position: relative;
-  margin: 150px 0px 0px 5px;
+  margin: 150px 0px 0px 0px;
   padding: 20px 20px 20px 20px;
   background-color:white;
 }
